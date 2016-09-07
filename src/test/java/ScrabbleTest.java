@@ -24,4 +24,25 @@ public class ScrabbleTest {
     Integer expected = 3;
     assertEquals(expected, testScrabble.calculateScore("do"));
   }
+
+  @Test
+  public void calculateScore_returnsScoreForWordWithLettersFromAllCategories_33() {
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 33;
+    assertEquals(expected, testScrabble.calculateScore("adbfkjq"));
+  }
+
+  @Test
+  public void calculateScore_returnsScoreForWordWithMixedCase_33() {
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 33;
+    assertEquals(expected, testScrabble.calculateScore("AdbFkjq"));
+  }
+
+  @Test
+  public void calculateScore_returnsScoreForAnyLetter_87() {
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 87;
+    assertEquals(expected, testScrabble.calculateScore("ABCDEFGHIJKLMNOPQRSTUVWXYZ"));
+  }
 }
