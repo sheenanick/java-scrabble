@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ScrabbleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-09-07T20:47:19" hostname="Sheenas-MBP" time="0.004">
+  <properties/>
+  <testcase name="calculateScore_returnsScoreForSingleLetter_1" classname="ScrabbleTest" time="0.002"/>
+  <testcase name="calculateScore_returnsScoreForTwoLettersWorthDifferentPoints_3" classname="ScrabbleTest" time="0.0"/>
+  <testcase name="calculateScore_returnsScoreForTwoLetters_2" classname="ScrabbleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
